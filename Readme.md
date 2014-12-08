@@ -16,13 +16,13 @@ Malaysian Happiness Index is a single page application.
 
 ## APIs used
 
-Twitter API
-Google Map API
-PubNub API
-NodeJS
-ExpressJS
-Nginx
-MongoDB
+- Twitter API
+- Google Map API
+- PubNub API
+- NodeJS
+- ExpressJS
+- Nginx
+- MongoDB
 
 ## Technical Architecture
 
