@@ -5,7 +5,7 @@
 [![Koding Hackathon](/images/badge.png?raw=true "Koding Hackathon")](https://koding.com/Hackathon)
 [![Coder53](/images/logo.png?raw=true "Coder53")](http://www.coder53.com)
 
-The title of the project is Malaysian Happiness Index. The motivation behind the project is to show the real time sentiments of Malaysian and the current index of happiness. We think that human specifically Malaysian in this project as part of the living ecosystem on the planet, our happiness is also one of the problems that's impacting the world, we believed in the idea of positive energy makes the world a better place. So, with this project, we are able to understand at certain point of time, how happy is Malaysian in general. 
+The title of the project is Malaysian Happiness Index. The motivation behind the project is to show the real time sentiments of Malaysians and the current index of happiness. We think that human specifically Malaysian in this project as part of the living ecosystem on the planet, our happiness is also one of the problems that's impacting the world, we believed in the idea of positive energy makes the world a better place. So, with this project, we are able to understand at certain point of time, how happy is Malaysian in general. 
 
 
 ## Screenshots
