@@ -1,0 +1,52 @@
+body {
+  font-family: oswald_book;
+  font-size: 50px;
+  font-weight: normal;
+  background-color: #f0eee1;
+  text-align: center;
+  background-image: url("/images/gridLine.png");
+}
+
+a {
+  color: #00B7FF;
+}
+
+.container {
+    margin-top: -50px;
+	width: 100%;
+	height: 100%;
+}
+
+#map_canvas{
+    height: 70%;
+}
+
+@font-face {
+    font-family: oswald_book;
+    src: url(/fonts/Oswald_Book.otf);
+}
+
+ul {
+    list-style-type: none;
+}
+
+#bar {
+    margin-top: -40px;
+}
+
+#title {
+    margin-top: -40px;
+}
+
+html {
+    height: 500px;
+}
+.container:after {
+  content: "";
+  display: block;
+}
+footer, .container:after {
+  height: 20px; 
+  font-weight: lighter;
+  font-size: 12px;
+}

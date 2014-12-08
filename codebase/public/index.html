@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+	<title>Malaysian Happiness Index</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+	<!-- Google Maps -->
+	<link href="https://google-developers.appspot.com/maps/documentation/javascript/examples/default.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false&amp;libraries=visualization"></script>
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <script src="/javascripts/streammhi.js" type="text/javascript"></script>
+    <script src="http://cdn.pubnub.com/pubnub-3.7.1.min.js"></script>
+    
+</head>
+
+<body onload="initialize()">
+    <div id="title">
+        <ul>
+            <li id="icon"><img src="/images/malaysia-icon.png"></li>
+            <li>Malaysian Happiness Index</li>
+            <li id="bar"><img src="/images/line.png"></li>
+        </ul>
+    </div>
+	<div class="container">
+	    <div id="subtitle"><img src="/images/Subtitle.png"></div>
+		<div id="map_canvas"></div>
+		<div id="current_index">Current Index: 0.0</div>
+	</div>
+	
+	<footer>
+  <p>Hackathon Project by <a href="http://www.coder53.com">Coder FiftyThree</a></p>
+</footer>
+</body>
+
+
+</html>

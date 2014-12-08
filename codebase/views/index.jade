@@ -1,0 +1,21 @@
+h1= title
+
+p Welcome to #{title}
+
+    
+
+block content
+  script(src='http://d3js.org/d3.v3.min.js')
+  script(src='https://maps.googleapis.com/maps/api/js?libraries=geometry,visualization')
+  .chart
+  script(type='text/javascript').
+    var dataset = [];
+    var data = !{JSON.stringify(indexHistoryList)};
+    data.forEach(function(d){
+        dataset.push(d['index']);
+    });
+    d3.select(".chart").selectAll("div").data(dataset).enter().append("div").attr("class", "bar")
+        .style("height", function(d) {
+            var barHeight = d * 5;
+            return barHeight + "px";
+        });
